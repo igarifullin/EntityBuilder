@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityBuilder", "EntityBuilder\EntityBuilder.csproj", "{BA4FC5EE-B39E-4524-AC80-CE79B7D9A8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityBuilder.Abstractions", "EntityBuilder.Abstractions\EntityBuilder.Abstractions.csproj", "{90092457-F389-4FB3-A80E-8A61CD151753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityBuilder.Tests", "EntityBuilder.Tests\EntityBuilder.Tests.csproj", "{D1402B27-DBF6-4D80-BA04-BCC5F612FE4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4FC5EE-B39E-4524-AC80-CE79B7D9A8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4FC5EE-B39E-4524-AC80-CE79B7D9A8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4FC5EE-B39E-4524-AC80-CE79B7D9A8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4FC5EE-B39E-4524-AC80-CE79B7D9A8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90092457-F389-4FB3-A80E-8A61CD151753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90092457-F389-4FB3-A80E-8A61CD151753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90092457-F389-4FB3-A80E-8A61CD151753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90092457-F389-4FB3-A80E-8A61CD151753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1402B27-DBF6-4D80-BA04-BCC5F612FE4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1402B27-DBF6-4D80-BA04-BCC5F612FE4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1402B27-DBF6-4D80-BA04-BCC5F612FE4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1402B27-DBF6-4D80-BA04-BCC5F612FE4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
