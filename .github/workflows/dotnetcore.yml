@@ -11,7 +11,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      working-directory: ./EntityBuilder # choose your solution folder here
+      working-directory: . # choose your solution folder here
 
     steps:
     - uses: actions/checkout@v2
@@ -36,4 +36,4 @@ jobs:
       run: find -name "*.nupkg" -print -exec gpr push -k ${{secrets.GH_PACKAGE}} {} \;
     - name: Push generated package to NuGet
       if: github.ref == 'refs/heads/master'
-      run: dotnet nuget push ${{env.working-directory}}/EntityBuilder/bin/Release/*.nupkg --skip-duplicate --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push ${{env.working-directory}}/bin/Release/*.nupkg --skip-duplicate --api-key ${{ secrets.NUGET_KEY }} --source https://api.nuget.org/v3/index.json
