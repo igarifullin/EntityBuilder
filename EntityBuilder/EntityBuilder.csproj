@@ -8,6 +8,8 @@
         <PackageId>Ilshat.EntityBuilder</PackageId>
         <Authors>Ilshat Garifullin</Authors>
         <RepositoryUrl>https://github.com/igarifullin/EntityBuilder</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+        <IsPackable>true</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
